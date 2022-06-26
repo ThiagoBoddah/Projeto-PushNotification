@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, input {
+	font-family: "Arial", sans serif;
+	background-color: #F0F0F0;
+	color:#919191;
+}
+
+
+.wrapper-interna h3 {
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #3b3b3b;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 1.25rem;
+}
+
+.sub-cel h3 {
+	color:#fff;
+}
+
+input, select{
+	background: #fff;
+	border: 1px solid #919191;
+	padding: 18px 10px;
+	border-radius: 4px;
+}
+
+input.form-control, .nv-mn, .nv-slct, .ftr-pg {
+	width: 100%;
+}
+
+input#birthday {
+    margin-right: 25px;
+}
+
+label.form-label {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.ini {
+	justify-content: flex-end;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cntt-blc {
+	margin: 20px 0;
+	color: #adadad;
+}
+
+.cntt-blx-r {
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+.msg-input {
+    height: 70px;
+}
+
+.npt-http, .flx-cntt, .nv-mn {
+	display: flex;
+}
+
+.frm-http {
+	border-radius: 4px 0 0 4px;
+    padding: 17px 10px;
+    color: #b81414;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.frm-cntrl-npt {
+	border-radius: 0 4px 4px 0;
+	width: 100%;
+}
+
+
+#sb-pnl {
+	padding: 20px;
+}
+
+.m-line {
+	margin: 10px;
+}
+
+.bttn, .bttn-up {
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.bttn-white:active {
+	background-color: #b81414;
+	color: #fff;
+}
+
+.bttn-white {
+	font-weight: 600;
+	text-transform: uppercase;
+	background: #fff;
+	color: #919191;
+	border: 1px solid #919191;
+	padding: 10px;
+	margin-right: -6px;
+}
+
+.mdll-white {
+	border-radius: 0px;
+}
+
+.lft-white {
+	border-radius: 4px 0 0 4px;
+}
+
+.rgt-white {
+	border-radius: 0 4px 4px 0;
+}
+
+.bttn-w {
+	width: 33%;
+}
+
+.bttn-red {
+	font-weight: 600;
+	text-transform: uppercase;
+	background: #b81414;
+	color: #fff;
+	border-color: #b81414;
+	padding: 12px 25px;
+	margin-top: 30px;
+}
+
+.cel-1 {
+	background-color: #3b3b3b;
+	padding: 9px;
+	display: flex;
+	height: 150px;
+}
+
+.cel-2 {
+	background-color: #fff;
+	padding: 9px;
+	display: flex;
+	box-shadow: 3px 3px 5px 1px #0000001a;
+	border-radius: 2px;
+	height: 150px;
+}
+
+.cel-2 h3, .cel-2 h4, .cel-2 p {
+	color: #3b3b3b;	
+}
+
+.sub-cel {
+	color: #fff;
+}
+
+.bttn-up {
+	padding: 10px;
+	height: 150px;
+	width: 150px;
+	background-color: #b81414;
+	margin: 0;
+	text-align: center;
+}
+
+.img-cel {
+	height: 90px;
+	min-width: 90px;
+	max-width: 90px;
+	background-color: #b81414;
+	margin: 12px;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.img-cel svg {
+	width: 50%;
+    display: block;
+}
+
+.mdl-gry > h3 {margin-top: 25px;font-size: 1rem;}
+
+.cntt-left {
+	width: 40%;
+}
+
+.cntt-rgt {
+    width: 100%;
+	margin: 0 22px;
+}
+
+.nv-in span, #site-search {
+	margin: 0 auto;
+}
+
+.cntt-left-ex {
+	border: 2px dashed #919191;
+	padding: 20px;
+}
+
+.cntt-left-in {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ar-1 ,.ar-2, .ar-3 {
+    margin: 18px 0 10px;	
+}
+
+.nv-in {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.bttn-bell {
+	align-items: center;
+    display: inline-flex;
+}
+
+#site-search {
+    background-color: #F0F0F0;
+    border: none;
+    box-shadow: -1px 2px 4px 1px #0000000f;
+}
+.bttn-up svg {
+    width: 50%;
+}
+
+section.wrapper-interna input:not([type="submit"]), section.wrapper-interna textarea {
+    border: 1px solid #eaeaea;
+    color: black;
+}

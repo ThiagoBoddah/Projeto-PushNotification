@@ -1,0 +1,6 @@
+##### LOCAWEB - NAO REMOVER #####
+AddHandler php73-script .php
+suPHP_ConfigPath /home/pushsendingtecno1/
+##### LOCAWEB - NAO REMOVER #####
+
+php_flag track_errors Off
